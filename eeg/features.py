@@ -8,7 +8,7 @@ from utils import *
 
 __all__ = ['get_time_domain_features', 'get_entropy_features', 'get_frequency_domain_features']
 
-def get_time_domain_features(x: list):
+def get_time_domain_features(x: list) -> dict:
 
     assert x is not None, "Invalid signal provided"
 
@@ -47,7 +47,7 @@ def get_time_domain_features(x: list):
 
     return time_domain_features
 
-def get_entropy_features(x: list, order = 3, metric = 'chebyshev'):
+def get_entropy_features(x: list, order = 3, metric = 'chebyshev') -> dict:
 
     assert x is not None, "Invalid signal provided"
 
@@ -71,13 +71,12 @@ def get_entropy_features(x: list, order = 3, metric = 'chebyshev'):
 
     return entropy_features
 
-def get_frequency_domain_features(x: list, band = None, fs = None):
+def get_frequency_domain_features(x: list, band = None, fs = None) -> dict:
 
     assert x is not None, "Invalid signal provided"
     assert fs is not None, "Sampled Frequency must be provided."
 
     fs = float(fs)
-
     x = abs(np.fft.fft(x))
     power = np.empty(len(band) - 1)
     
