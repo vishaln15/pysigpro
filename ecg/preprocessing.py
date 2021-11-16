@@ -1,6 +1,4 @@
 import numpy as np
-from numpy.ma import outerproduct
-import pandas as pd
 
 __all__ = ['remove_ecg_outliers']
 
