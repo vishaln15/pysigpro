@@ -70,7 +70,7 @@ A one-stop comprehensive Python package that serves as a feature extraction tool
 
 ## Installation
 
-pip install pysigpro
+    pip install pysigpro
 
 ## Getting started
 
