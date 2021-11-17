@@ -68,6 +68,8 @@ A one-stop comprehensive Python package that serves as a feature extraction tool
 - [scipy](https://www.scipy.org/)
 - [scikit-learn](https://scikit-learn.org/)
 
+    pip install -r requirements.txt
+
 ## Installation
 
     pip install git+https://github.com/vishaln15/pysigpro.git
