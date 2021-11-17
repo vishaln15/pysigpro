@@ -106,3 +106,11 @@ def _numba_sampen(x, order, r):
     b = np.array([float(bb) for bb in b])
     p = np.true_divide(a, b)
     return -log(p[-1])
+
+def xlogx(x, base=2):
+    x = np.asarray(x)
+    xlogx = np.zeros(x.shape)
+    xlogx[x < 0] = np.nan
+    valid = x > 0
+    xlogx[valid] = x[valid] * np.log(x[valid]) / np.log(base)
+    return xlogx
