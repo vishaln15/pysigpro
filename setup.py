@@ -3,9 +3,11 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
+version = '0.0.2'
+
 setuptools.setup(
     name='pysigpro',
-    version='0.0.1',
+    version=version,
     author='Vishal Nagarajan',
     author_email='nagarajanvishal@gmail.com',
     description='ECG/EEG Signal Feature Extraction Package',
