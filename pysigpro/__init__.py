@@ -1,2 +1,2 @@
-from ecg import *
-from eeg import *
+from .ecg import *
+from .eeg import *
