@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='toolbox',
+    name='pysigpro',
     version='0.0.1',
     author='Vishal Nagarajan',
     author_email='nagarajanvishal@gmail.com',
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/vishaln15/pysigpro/issues"
     },
     license='MIT',
-    packages=['toolbox'],
+    packages=['pysigpro'],
     install_requires=['requests'],
 )
