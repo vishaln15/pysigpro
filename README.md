@@ -2,7 +2,7 @@
 
 ## Description
 
-A one-stop comprehensive Python package that serves as a feature extraction tool which extracts features from various domains. These features are frequently used in algorithms in EEG/ECG signal processing. Powerful feature extraction system is necessary as features provide useful and relative information that aids algorithms in their performance. The raw signals can be split in segments of time, known as a “window”, from which features can be extracted.
+A one-stop comprehensive Python package that serves as a feature extraction tool which extracts features from various domains. These features are frequently used in algorithms in EEG/ECG signal processing. Powerful feature extraction system is necessary as features provide useful and relative information that aids algorithms in their performance. The raw signals can be split in segments of time, known as a *window*, from which features can be extracted.
 
 ## ECG FEATURES
 
@@ -54,4 +54,5 @@ You can also clone the repository:
 ## Authors
 
 [**Vishal Nagarajan**](https://github.com/vishaln15)
+
 [**Ashwini Muralidharan**](https://github.com/Ashwiinii)
