@@ -1,1 +1,1 @@
-from . import *
+import eeg, eeg
