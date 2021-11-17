@@ -38,7 +38,6 @@ A one-stop comprehensive Python package that serves as a feature extraction tool
 ## Installation
 ```
     pip install git+https://github.com/vishaln15/pysigpro.git
-
 ```
 
 You can also clone the repository:
