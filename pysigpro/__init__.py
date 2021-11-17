@@ -1,1 +1,2 @@
-from pysigpro import ecg, eeg
+from .ecg import *
+from .eeg import *
