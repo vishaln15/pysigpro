@@ -37,7 +37,7 @@ A one-stop comprehensive Python package that serves as a feature extraction tool
 
 ## ECG Features
 
-### Time Domain Features
+### TIME DOMAIN FEATURES
 - MEAN_NNI 
 - SDNN
 - SDSD
@@ -54,19 +54,19 @@ A one-stop comprehensive Python package that serves as a feature extraction tool
 - MIN_HR
 - STD_HR
 
-### Geometrical Features
+### GEOMETRICAL FEATURES
 - TRIANGULAR_INDEX
 
-### Entropy Features
+### ENTROPY FEATURES
 - SAMPLE_ENTROPY
 
 ## Dependencies
 
-- [pandas] (https://pandas.pydata.org/)
-- [numpy] (https://numpy.org/)
-- [numba] (http://numba.pydata.org/)
-- [scipy] (https://www.scipy.org/)
-- [scikit-learn] (https://scikit-learn.org/)
+- [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+- [numba](http://numba.pydata.org/)
+- [scipy](https://www.scipy.org/)
+- [scikit-learn](https://scikit-learn.org/)
 
 ## Installation
 
