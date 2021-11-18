@@ -3,6 +3,8 @@ from sklearn.neighbors import KDTree
 from numba import jit
 from math import *
 
+__all__ = ['hMob', 'embed', 'app_samp_entropy', '_numba_sampen', 'xlogx']
+
 def hMob(x):
     
     row = np.array(x)
