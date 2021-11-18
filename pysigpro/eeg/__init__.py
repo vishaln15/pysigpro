@@ -1,2 +1,1 @@
-from .eeg_features import *
-from .utils import *
+import eeg_features, utils
