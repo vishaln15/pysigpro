@@ -14,7 +14,7 @@ def get_time_domain_features(nn_intervals: list, sampling_freq: float) -> dict:
     rmssd = np.sqrt(np.mean(nni_diff))
     nni_50 = sum(np.abs(nni_diff) > 50 * sampling_freq)
     pnni_50 = 100 * nni_50 / len_interval
-    nni_20 = sum(np.abs(nni_diff) > 20 * sampling_freq))
+    nni_20 = sum(np.abs(nni_diff) > 20 * sampling_freq)
     pnni_20 = 100 * nni_20 / len_interval
     cvsd = np.divide(rmssd / mean)
     sdnn = np.std(nn_intervals, ddof = 1)
