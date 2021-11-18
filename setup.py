@@ -18,6 +18,6 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/vishaln15/pysigpro/issues"
     },
     license='MIT',
-    packages=['pysigpro'],
-    install_requires=['requests'],
+    packages=setuptools.find_packages(),
+    install_requires=['numpy', 'numba', 'scipy', 'pandas', 'scikit-learn', 'nolds'],
 )
