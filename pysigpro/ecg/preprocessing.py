@@ -1,6 +1,6 @@
 import numpy as np
 
-__all__ = ['remove_ecg_outliers', 'is_outlier', 'remove_ectopic_beats']
+# __all__ = ['remove_ecg_outliers', 'is_outlier', 'remove_ectopic_beats']
 
 def remove_ecg_outliers(rr_intervals: list, low_rri: float = 300, high_rri: float = 2000, verbose: bool = False) -> list:
     
