@@ -2,7 +2,7 @@
 
 ## Description
 
-A one-stop comprehensive Python package that serves as a feature extraction tool which extracts features from various domains. These features are frequently used in algorithms in EEG/ECG signal processing. Powerful feature extraction system is necessary as features provide useful and relative information that aids algorithms in their performance. The raw signals can be split in segments of time, known as a *window*, from which features can be extracted.
+**PySigPro** is a one-stop comprehensive Python package that serves as a feature extraction tool which extracts features from various domains. These features are frequently used in algorithms for [ECG](https://github.com/vishaln15/pysigpro/tree/main/pysigpro/ecg)/[EEG](https://github.com/vishaln15/pysigpro/tree/main/pysigpro/eeg) signal processing. Powerful feature extraction system is necessary as features provide useful and relative information that aids algorithms in their performance. The raw signals can be split in segments of time, known as a *window*, from which features can be extracted.
 
 ## ECG FEATURES
 
@@ -30,21 +30,22 @@ A one-stop comprehensive Python package that serves as a feature extraction tool
 - [numba](http://numba.pydata.org/)
 - [scipy](https://www.scipy.org/)
 - [scikit-learn](https://scikit-learn.org/)
+- [nolds](https://pypi.org/project/nolds/)
 
 ```
-    pip install -r requirements.txt
+    $ pip install -r requirements.txt
 ```    
 
 ## Installation
 ```
-    pip install git+https://github.com/vishaln15/pysigpro.git
+    $ pip install git+https://github.com/vishaln15/pysigpro.git
 ```
 
 You can also clone the repository:
 
 ```
-    $ pip install -r requirements.txt
     $ git clone https://github.com/vishaln15/pysigpro.git
+    $ pip install -r requirements.txt
     $ python setup.py install
 ```
 
@@ -55,3 +56,5 @@ You can also clone the repository:
 [**Vishal Nagarajan**](https://github.com/vishaln15)
 
 [**Ashwini Muralidharan**](https://github.com/Ashwiinii)
+
+[**Sideshwar J B**](https://github.com/sidesh27)
