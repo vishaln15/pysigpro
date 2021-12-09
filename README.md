@@ -3,13 +3,13 @@
 </div>
 <h1 align="center">PySigPro</h1>
 
-<p align="center">
+<div align="center">
     ![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)
 
     [![GitHub license](https://img.shields.io/github/license/vishaln15/pysigpro)](https://github.com/vishaln15/pysigpro)
 
     [![Status](https://img.shields.io/badge/status-work%20in%20progress-blue)](https://github.com/vishaln15/pysigpro/graphs/commit-activity)
-</p>
+</div>
 
 ## Description
 
