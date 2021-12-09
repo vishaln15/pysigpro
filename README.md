@@ -1,8 +1,20 @@
-# PySigPro
+<div align="center">
+    <img src="images/PySigPro_logo.png" width="150" height="150"/>
+</div>
+<h1 align="center">PySigPro</h1>
+
+<div align="center">
+    [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+    [![MIT License](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+
+    [![Status](https://img.shields.io/badge/status-work%20in%20progress-blue)](https://github.com/vishaln15/pysigpro/graphs/commit-activity)
+
+</div>
 
 ## Description
 
-**PySigPro** is a one-stop comprehensive Python package that serves as a feature extraction tool which extracts features from various domains. These features are frequently used in algorithms for [ECG](https://github.com/vishaln15/pysigpro/tree/main/pysigpro/ecg)/[EEG](https://github.com/vishaln15/pysigpro/tree/main/pysigpro/eeg) signal processing. Powerful feature extraction system is necessary as features provide useful and relative information that aids algorithms in their performance. The raw signals can be split in segments of time, known as a *window*, from which features can be extracted.
+**PySigPro** is a *work in progress* one-stop comprehensive Python package that serves as a feature extraction tool which extracts features from various domains. These features are frequently used in algorithms for [ECG](https://github.com/vishaln15/pysigpro/tree/main/pysigpro/ecg)/[EEG](https://github.com/vishaln15/pysigpro/tree/main/pysigpro/eeg) signal processing. Powerful feature extraction system is necessary as features provide useful and relative information that aids algorithms in their performance. The raw signals can be split in segments of time, termed as a *window*, from which features can be extracted.
 
 ## ECG FEATURES
 
@@ -49,12 +61,8 @@ You can also clone the repository:
     $ python setup.py install
 ```
 
-## Getting started
-
 ## Authors
 
 [**Vishal Nagarajan**](https://github.com/vishaln15)
 
 [**Ashwini Muralidharan**](https://github.com/Ashwiinii)
-
-[**Sideshwar J B**](https://github.com/sidesh27)
