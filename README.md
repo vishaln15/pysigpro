@@ -9,7 +9,6 @@
     [![GitHub license](https://img.shields.io/github/license/vishaln15/pysigpro)](https://github.com/vishaln15/pysigpro)
 
     [![Status](https://img.shields.io/badge/status-work%20in%20progress-blue)](https://github.com/vishaln15/pysigpro/graphs/commit-activity)
-
 </p>
 
 ## Description
